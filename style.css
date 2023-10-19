@@ -1,0 +1,119 @@
+  
+body {
+    background-color: black;
+}
+
+#a4 {
+    background-color: white;
+    height: 29.7cm;
+    width: 21.0cm;
+    margin: auto;
+}
+
+#yuvarlakResim {
+    position: relative;
+    top: 40px;
+    left: 40px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#ustSection {
+    background-color: #F5F7F8;
+    height: 20%;
+    border-bottom: 1px solid black;
+}
+
+#ustSol {
+    float: left;
+    width: 250px;
+    height: 100%;
+}
+
+#ustSag {
+    height: 100%;
+}
+
+#isimDiv {
+    display: inline-block;
+    width: calc(100% - 80px);
+    margin-left: 80px;
+    margin-top: 48px;
+}
+
+#isim {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    color: #748E63;
+    font-size: 48px;
+}
+
+#isimAltSol {
+    display: inline-block;
+    width:45%;
+}
+
+#isimAltSag {
+    display: inline-block;
+    width: 50%;
+}
+
+#ustSag {
+    display: inline-block;
+    width: calc(100% - 250px);
+}
+
+
+/*-------------------SOL SECTION-----------------*/
+
+#solSection {
+    background-color: #F4CE14;
+    color: #45474B;
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    height: 80%;
+}
+
+.solIcerik {
+    margin: 48px 30px 0px 30px;
+}
+
+.sagIcerik {
+    margin:48px 30px 0px 30px;
+}
+
+.h3Basliklar {
+    color: #495E57;
+    padding-left: 10px;
+}
+
+.justify {
+    text-align: justify;
+}
+/* -----------------SAG SECTION-------------------*/
+
+#sagSection {
+    background-color: #F5F7F8;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: calc(60% - 1px);
+    height: 80%;
+    float: right;
+}
+
+hr {
+    border-top: 1px solid #45474B;
+    border-bottom: 1px solid #45474B;
+    background: none;
+}
